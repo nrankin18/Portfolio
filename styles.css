@@ -1,0 +1,28 @@
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+input {
+    margin: 7px 0;
+}
+
+h3 {
+    margin: 0 0 3px 0;
+}
+
+button {
+    margin: 15px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    width:75%;
+    display:block;
+}
