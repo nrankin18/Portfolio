@@ -172,7 +172,7 @@
             <div class="skill">
                 <img src="img/mysql.png">
                 <div class="bubble">
-                    <p>MySQl</p>
+                    <p>MySQL</p>
                 </div>
             </div>
             <div class="skill">
