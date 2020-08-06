@@ -170,9 +170,9 @@
                 </div>
             </div>
             <div class="skill">
-                <img src="img/sql.png">
+                <img src="img/mysql.png">
                 <div class="bubble">
-                    <p>SQL</p>
+                    <p>MySQl</p>
                 </div>
             </div>
             <div class="skill">
@@ -241,12 +241,6 @@
                 <img src="img/pycharm.png">
                 <div class="bubble">
                     <p>PyCharm</p>
-                </div>
-            </div>
-            <div class="skill">
-                <img src="img/mysql.png">
-                <div class="bubble">
-                    <p>MySQL</p>
                 </div>
             </div>
             <div class="skill">
