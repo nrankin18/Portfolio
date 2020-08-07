@@ -79,7 +79,7 @@
         </div>
         <div class="ac">
             <img src="img/p28a.png">
-            <span class="ac-id">Piper Warrior</span>
+            <span class="ac-id">Piper PA-28</span>
             <span class="subline"></span>
             <div><span id="p28a-board" class="ac-time"></span></div>
         </div>
