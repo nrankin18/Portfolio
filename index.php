@@ -5,6 +5,7 @@
 </head>
 <img class="icon" src="img/icon.png">
 <?php include_once("header.php"); ?>
+
 <body>
     <div class="banner"></div>
     <div class="stripe"></div>
@@ -134,6 +135,12 @@
                 </div>
             </div>
             <div class="skill">
+                <img src="img/oc.png">
+                <div class="bubble">
+                    <p>Objective-C</p>
+                </div>
+            </div>
+            <div class="skill">
                 <img src="img/python.png">
                 <div class="bubble">
                     <p>Python</p>
@@ -170,21 +177,27 @@
                 </div>
             </div>
             <div class="skill">
+                <img src="img/sql.png">
+                <div class="bubble">
+                    <p>SQL</p>
+                </div>
+            </div>
+            <div class="skill">
                 <img src="img/mysql.png">
                 <div class="bubble">
                     <p>MySQL</p>
                 </div>
             </div>
             <div class="skill">
-                <img src="img/laravel.png">
+                <img src="img/jquery.png">
                 <div class="bubble">
-                    <p>Laravel</p>
+                    <p>jQuery</p>
                 </div>
             </div>
             <div class="skill">
-                <img src="img/oc.png">
+                <img src="img/laravel.png">
                 <div class="bubble">
-                    <p>Objective-C</p>
+                    <p>Laravel</p>
                 </div>
             </div>
             <div class="skill">
@@ -202,6 +215,18 @@
                 </div>
             </div>
             <div class="skill">
+                <img src="img/at.png">
+                <div class="bubble">
+                    <p>Atlassian</p>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="img/vstudio.png">
+                <div class="bubble">
+                    <p>Visual Studio</p>
+                </div>
+            </div>
+            <div class="skill">
                 <img src="img/eclipse.png">
                 <div class="bubble">
                     <p>Eclipse</p>
@@ -211,12 +236,6 @@
                 <img src="img/xcode.png">
                 <div class="bubble">
                     <p>Xcode</p>
-                </div>
-            </div>
-            <div class="skill">
-                <img src="img/vstudio.png">
-                <div class="bubble">
-                    <p>Visual Studio</p>
                 </div>
             </div>
             <div class="skill">
@@ -241,18 +260,6 @@
                 <img src="img/pycharm.png">
                 <div class="bubble">
                     <p>PyCharm</p>
-                </div>
-            </div>
-            <div class="skill">
-                <img src="img/slack.png">
-                <div class="bubble">
-                    <p>Slack</p>
-                </div>
-            </div>
-            <div class="skill">
-                <img src="img/at.png">
-                <div class="bubble">
-                    <p>Atlassian</p>
                 </div>
             </div>
         </div>
@@ -299,6 +306,12 @@
                     <p>iWork</p>
                 </div>
             </div>
+            <div class="skill">
+                <img src="img/slack.png">
+                <div class="bubble">
+                    <p>Slack</p>
+                </div>
+            </div>
         </div>
     </div>
     <h3 class="subsection">
@@ -310,7 +323,7 @@
     <div class="projects">
         <div class="project">
             <img src="img/pw1.png">
-            <div id="website-button"class="screen">
+            <div id="website-button" class="screen">
                 <p>Portfolio Website</p>
             </div>
         </div>
@@ -320,21 +333,21 @@
                 <p class="modal-title">Portfolio Website</p>
                 <div class="subline"></div>
                 <span class="modal-slideshow">
-                    <span class = "modal-slides">
+                    <span class="modal-slides">
                         <div class="slide">
-                        <img src="img/pw1.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/pw3.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/pw2.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/pw4.png">
-                    </div>
-                    <a class="prev" onclick="plusSlidesMain(-1,1,4)">&#10094;</a>
-                    <a class="next" onclick="plusSlidesMain(1,1,4)">&#10095;</a>
+                            <img src="img/pw1.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/pw3.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/pw2.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/pw4.png">
+                        </div>
+                        <a class="prev" onclick="plusSlidesMain(-1,1,4)">&#10094;</a>
+                        <a class="next" onclick="plusSlidesMain(1,1,4)">&#10095;</a>
                     </span>
                     <div style="text-align:center">
                         <div class="dotbar">
@@ -342,37 +355,153 @@
                             <span class="slide-dot" onclick="currentSlide(2)"></span>
                             <span class="slide-dot" onclick="currentSlide(3)"></span>
                             <span class="slide-dot" onclick="currentSlide(4)"></span>
-                         </div>
+                        </div>
                     </div>
                 </span>
-                <p class="modal-text">	I created this portfolio website at the beginning of 2020 to display my resume in a more interactive format for prospective employers. Around 95% of the website's elements were created from the ground up, helping me strengthen my HTML, CSS and JavaScript skills. In the projects section, I designed popup modals that display additional project information (such as the one you are viewing now) and incorporated interactive slideshows. The aviation page features a map created using the Carto API and is populated with data from a GeoJSON file.</p>
+                <p class="modal-text"> I created this portfolio website at the beginning of 2020 to display my resume in a more interactive format for prospective employers. Around 95% of the website's elements were created from the ground up, helping me strengthen my HTML, CSS, JavaScript, and PHP skills. In the projects section, I designed popup modals that display additional project information (such as the one you are viewing now) and incorporated interactive slideshows. The aviation page features a map created using the Carto API and is populated with data from a GeoJSON file. Finally, the contact page includes a PHP email form with Google reCAPTCHA protection.</p>
                 <span class="modal-language">Languages used:</span>
-                <div class="skills"> <div>
-                    <div class="skill">
-                        <img src="img/html.png">
-                        <div class="bubble">
-                            <p>HTML</p>
+                <div class="modal-skills">
+                    <div>
+                        <div class="skill">
+                            <img src="img/html.png">
+                            <div class="bubble">
+                                <p>HTML</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill">
-                        <img src="img/css.png">
-                        <div class="bubble">
-                            <p>CSS</p>
+                        <div class="skill">
+                            <img src="img/css.png">
+                            <div class="bubble">
+                                <p>CSS</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill">
-                        <img src="img/js.png">
-                        <div class="bubble">
-                            <p>JavaScript</p>
+                        <div class="skill">
+                            <img src="img/js.png">
+                            <div class="bubble">
+                                <p>JavaScript</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill">
-                        <img src="img/php.png">
-                        <div class="bubble">
-                            <p>PHP</p>
+                        <div class="skill">
+                            <img src="img/php.png">
+                            <div class="bubble">
+                                <p>PHP</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <span class="modal-language">Source code available on:</span>
+                <div class="modal-skills">
+                    <a target="_blank" href="https://github.com/nrankin18/Portfolio">
+                    <div>
+                        <div class="skill">
+                            <img src="img/git.png">
+                            <div class="bubble">
+                                <p>GitHub</p>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <img src="img/lindbergh1.png">
+            <div id="lindbergh-button" class="screen">
+                <p>Project Lindbergh</p>
+            </div>
+        </div>
+        <div id="lindbergh-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p class="modal-title">Project Lindbergh</p>
+                <div class="subline"></div>
+                <span class="modal-slideshow">
+                    <span class="modal-slides">
+                        <div class="slide">
+                            <img src="img/lindbergh1.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/lindbergh2.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/lindbergh3.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/lindbergh4.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/lindbergh5.png">
+                        </div>
+                        <a class="prev" onclick="plusSlidesMain(-1,5,9)">&#10094;</a>
+                        <a class="next" onclick="plusSlidesMain(1,5,9)">&#10095;</a>
+                    </span>
+                    <div style="text-align:center">
+                        <div class="dotbar">
+                            <span class="slide-dot" onclick="currentSlide(5)"></span>
+                            <span class="slide-dot" onclick="currentSlide(6)"></span>
+                            <span class="slide-dot" onclick="currentSlide(7)"></span>
+                            <span class="slide-dot" onclick="currentSlide(8)"></span>
+                            <span class="slide-dot" onclick="currentSlide(9)"></span>
+                        </div>
+                    </div>
+                </span>
+                <p class="modal-text">Project Lindbergh is a collaborative volunteer project started by the current Webmaster of Boston Virtual ARTCC, a non-profit 501(c)(3) organization that provides realistic air traffic control services for pilots training on flight simulators. The website serves multiple functions in the community, including training management, exam distribution and test corrections, event management, shift sign-ups, and roster management. Currently I aid in the maitenance of the site as well as the implementation of new features. </p>
+                <span class="modal-language">Languages used:</span>
+                <div class="modal-skills">
+                    <div>
+                        <div class="skill">
+                            <img src="img/html.png">
+                            <div class="bubble">
+                                <p>HTML</p>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img src="img/css.png">
+                            <div class="bubble">
+                                <p>CSS</p>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img src="img/js.png">
+                            <div class="bubble">
+                                <p>JavaScript</p>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img src="img/php.png">
+                            <div class="bubble">
+                                <p>PHP</p>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img src="img/sql.png">
+                            <div class="bubble">
+                                <p>SQL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="modal-language">Technologies used:</span>
+                <div class="modal-skills">
+                    <div>
+                        <div class="skill">
+                            <img src="img/laravel.png">
+                            <div class="bubble">
+                                <p>Laravel</p>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img src="img/mysql.png">
+                            <div class="bubble">
+                                <p>MySQL</p>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img src="img/jquery.png">
+                            <div class="bubble">
+                                <p>jQuery</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -388,49 +517,132 @@
                 <p class="modal-title">Spotter</p>
                 <div class="subline"></div>
                 <span class="modal-mobile-slideshow">
-                    <span class = "modal-slides">
-                    <div class="slide">
-                        <img src="img/spot1.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/spot2.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/spot4.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/spot8.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/spot3.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/spot6.png">
-                    </div>
-                    <a class="prev" onclick="plusSlidesMain(-1, 5, 10)">&#10094;</a>
-                    <a class="next" onclick="plusSlidesMain(1, 5, 10)">&#10095;</a>
+                    <span class="modal-slides">
+                        <div class="slide">
+                            <img src="img/spot1.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/spot2.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/spot4.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/spot8.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/spot3.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/spot6.png">
+                        </div>
+                        <a class="prev" onclick="plusSlidesMain(-1, 10, 15)">&#10094;</a>
+                        <a class="next" onclick="plusSlidesMain(1, 10, 15)">&#10095;</a>
                     </span>
                     <div style="text-align:center">
                         <div class="dotbar">
-                            <span class="slide-dot" onclick="currentSlide(5)"></span>
-                            <span class="slide-dot" onclick="currentSlide(6)"></span>
-                            <span class="slide-dot" onclick="currentSlide(7)"></span>
-                            <span class="slide-dot" onclick="currentSlide(8)"></span>
-                            <span class="slide-dot" onclick="currentSlide(9)"></span>
                             <span class="slide-dot" onclick="currentSlide(10)"></span>
-                         </div>
+                            <span class="slide-dot" onclick="currentSlide(11)"></span>
+                            <span class="slide-dot" onclick="currentSlide(12)"></span>
+                            <span class="slide-dot" onclick="currentSlide(13)"></span>
+                            <span class="slide-dot" onclick="currentSlide(14)"></span>
+                            <span class="slide-dot" onclick="currentSlide(15)"></span>
+                        </div>
                     </div>
                 </span>
                 <p class="modal-text">Spotter was a Swift-based iOS app prototype built during my freshman year of college aimed at combining the immensely popular Pokémon Go-style game with the world of aviation. Players would compete by spotting real aircraft and earn points by completing objectives, such as finding a particular aircraft type, operator, or destination. Plans called for an augmented-reality style interface that would allow users to point their cameras at aircraft passing overhead to spot them. The project received real-time aircraft data from an open-source ADS-B data provider, which unfortunately ceased its service halfway through the app’s development. The app also relied on data from APIs that would dynamically look up the city name associated with an airport code, airline logos, and country flags. </p>
                 <span class="modal-language">Language used:</span>
-                <div class="skills"> <div>
-                    <div class="skill">
-                        <img src="img/swift.png">
-                        <div class="bubble">
-                            <p>Swift</p>
+                <div class="modal-skills">
+                    <div>
+                        <div class="skill">
+                            <img src="img/swift.png">
+                            <div class="bubble">
+                                <p>Swift</p>
+                            </div>
                         </div>
                     </div>
-                </div></div>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <img src="img/ids.png">
+            <div id="ids-button" class="screen">
+                <p>Information Display System</p>
+            </div>
+        </div>
+        <div id="ids-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p class="modal-title">Information Display System (IDS)</p>
+                <div class="subline"></div>
+                <span class="modal-slideshow">
+                    <img src="img/ids.png">
+                </span>
+                <p class="modal-text">Boston Virtual ARTCC's Information Display System (IDS) is a modular web-application that allows air traffic controllers on the VATSIM network to build a custom toolbox of useful technologies to aid them while controlling. It simulates software used by the FAA (Federal Aviation Administration) in facilities across the United States. Some of the available features include: access to aircraft, airline, and FAA preferred routes databases, weather information, aeronautical charts, and live airport information.</p>
+                <span class="modal-language">Languages used:</span>
+                <div class="modal-skills">
+                    <div>
+                        <div class="skill">
+                            <img src="img/html.png">
+                            <div class="bubble">
+                                <p>HTML</p>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img src="img/css.png">
+                            <div class="bubble">
+                                <p>CSS</p>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img src="img/js.png">
+                            <div class="bubble">
+                                <p>JavaScript</p>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img src="img/php.png">
+                            <div class="bubble">
+                                <p>PHP</p>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img src="img/sql.png">
+                            <div class="bubble">
+                                <p>SQL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="modal-language">Technologies used:</span>
+                <div class="modal-skills">
+                    <div>
+                        <div class="skill">
+                            <img src="img/codeigniter.png">
+                            <div class="bubble">
+                                <p>CodeIgniter</p>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img src="img/handlebars.png">
+                            <div class="bubble">
+                                <p>Handlebars.js</p>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img src="img/mysql.png">
+                            <div class="bubble">
+                                <p>MySQL</p>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img src="img/jquery.png">
+                            <div class="bubble">
+                                <p>jQuery</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="project">
@@ -447,16 +659,31 @@
                 <span class="modal-slideshow">
                     <img src="img/preflight.png">
                 </span>
-                <p class="modal-text">	A member of the Connecticut Civil Air Patrol approached me with a request to update their outdated MATLAB mission briefer that was no longer functional. He explained the aim of the program was simplicity. When a mission dropped, he wanted a simple one-click solution that would automatically generate a mission briefing .txt file that could be easily printed without the hassle of GUIs and dozens of online aviation weather sources. My solution was a simple Java executable file that, in addition to generating boilerplate mission paperwork, would gather weather reports for the state of Connecticut including Area Forecasts, METARs, TAFs, winds aloft, and AIRMETs, and output a briefing in an easily printable and readable format.</p>
+                <p class="modal-text"> A member of the Connecticut Civil Air Patrol approached me with a request to update their outdated MATLAB mission briefer that was no longer functional. He explained the aim of the program was simplicity. When a mission dropped, he wanted a simple one-click solution that would automatically generate a mission briefing .txt file that could be easily printed without the hassle of GUIs and dozens of online aviation weather sources. My solution was a simple Java executable file that, in addition to generating boilerplate mission paperwork, would gather weather reports for the state of Connecticut including Area Forecasts, METARs, TAFs, winds aloft, and AIRMETs, and output a briefing in an easily printable and readable format.</p>
                 <span class="modal-language">Language used:</span>
-                <div class="skills"> <div>
-                    <div class="skill">
-                        <img src="img/java.png">
-                        <div class="bubble">
-                            <p>Java</p>
+                <div class="modal-skills">
+                    <div>
+                        <div class="skill">
+                            <img src="img/java.png">
+                            <div class="bubble">
+                                <p>Java</p>
+                            </div>
                         </div>
                     </div>
-                </div></div>
+                </div>
+                <span class="modal-language">Source code available on:</span>
+                <div class="modal-skills">
+                    <a target="_blank" href="https://github.com/nrankin18/CTPreflight">
+                    <div>
+                        <div class="skill">
+                            <img src="img/git.png">
+                            <div class="bubble">
+                                <p>GitHub</p>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="project">
@@ -473,16 +700,18 @@
                 <span class="modal-slideshow">
                     <img src="img/fcd.png">
                 </span>
-                <p class="modal-text">	Five Card Draw is a Java application that stemmed from an assignment in an intro to Java course. While the original assignment only called for a console-based game for students to practice writing Card and Deck classes, I decided to create a GUI and later added AI opponents to fully “flush” out the game. AI opponents were randomly generated each game with a unique name, skill level, and tendency to bluff. These opponents correctly discarded the two worst cards in their hand and wagered bets or folded according to their hand’s probability of winning. This game was fun to design and even more rewarding to see being played by classmates in school.</p>
+                <p class="modal-text"> Five Card Draw is a Java application that stemmed from an assignment in an intro to Java course. While the original assignment only called for a console-based game for students to practice writing Card and Deck classes, I decided to create a GUI and later added AI opponents to fully “flush” out the game. AI opponents were randomly generated each game with a unique name, skill level, and tendency to bluff. These opponents correctly discarded the two worst cards in their hand and wagered bets or folded according to their hand’s probability of winning. This game was fun to design and even more rewarding to see being played by classmates in school.</p>
                 <span class="modal-language">Language used:</span>
-                <div class="skills"> <div>
-                    <div class="skill">
-                        <img src="img/java.png">
-                        <div class="bubble">
-                            <p>Java</p>
+                <div class="modal-skills">
+                    <div>
+                        <div class="skill">
+                            <img src="img/java.png">
+                            <div class="bubble">
+                                <p>Java</p>
+                            </div>
                         </div>
                     </div>
-                </div></div>
+                </div>
             </div>
         </div>
         <div class="project">
@@ -497,42 +726,44 @@
                 <p class="modal-title">The Amazing Race</p>
                 <div class="subline"></div>
                 <span class="modal-slideshow">
-                    <span class = "modal-slides">
-                    <div class="slide">
-                        <img src="img/tar1.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/tar2.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/tar3.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/tar4.png">
-                    </div>
-                    <a class="prev" onclick="plusSlidesMain(-1,11,14)">&#10094;</a>
-                    <a class="next" onclick="plusSlidesMain(1,11,14)">&#10095;</a>
+                    <span class="modal-slides">
+                        <div class="slide">
+                            <img src="img/tar1.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/tar2.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/tar3.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/tar4.png">
+                        </div>
+                        <a class="prev" onclick="plusSlidesMain(-1,16,19)">&#10094;</a>
+                        <a class="next" onclick="plusSlidesMain(1,16,19)">&#10095;</a>
                     </span>
                     <div style="text-align:center">
                         <div class="dotbar">
-                            <span class="slide-dot" onclick="currentSlide(11)"></span>
-                            <span class="slide-dot" onclick="currentSlide(12)"></span>
-                            <span class="slide-dot" onclick="currentSlide(13)"></span>
-                            <span class="slide-dot" onclick="currentSlide(14)"></span>
-                         </div>
-                    </div>
-                </span>
-                <p class="modal-text">	The Amazing Race was a single-player game prototype built for a week-long coding competition hosted by Codevana. The game was based on the CBS reality television show of the same name that sees contestants race around the world completing challenges to avoid elimination and be the first to cross the finish line. This prototype was based on the first episode of the 25th season located on the U.S. Virgin Islands. Players would dig for buried treasure using clues and a compass, then hop on a boat to the capital city of Charlotte Amalie where they would search for the leg’s pit stop located in Fort Christian. I created unique 3D assets in Blender including the iconic clue box and Fort Christian, designed the level in Unreal Engine, then scripted the leg's challenges in UnrealScript. At the end of the week, this project won the Audience Choice Award.
-                </p>
-                <span class="modal-language">Language used:</span>
-                <div class="skills"> <div>
-                    <div class="skill">
-                        <img src="img/ue.png">
-                        <div class="bubble">
-                            <p>UnrealScript</p>
+                            <span class="slide-dot" onclick="currentSlide(16)"></span>
+                            <span class="slide-dot" onclick="currentSlide(17)"></span>
+                            <span class="slide-dot" onclick="currentSlide(18)"></span>
+                            <span class="slide-dot" onclick="currentSlide(19)"></span>
                         </div>
                     </div>
-                </div></div>
+                </span>
+                <p class="modal-text"> The Amazing Race was a single-player game prototype built for a week-long coding competition hosted by Codevana. The game was based on the CBS reality television show of the same name that sees contestants race around the world completing challenges to avoid elimination and be the first to cross the finish line. This prototype was based on the first episode of the 25th season located on the U.S. Virgin Islands. Players would dig for buried treasure using clues and a compass, then hop on a boat to the capital city of Charlotte Amalie where they would search for the leg’s pit stop located in Fort Christian. I created unique 3D assets in Blender including the iconic clue box and Fort Christian, designed the level in Unreal Engine, then scripted the leg's challenges in UnrealScript. At the end of the week, this project won the Audience Choice Award.
+                </p>
+                <span class="modal-language">Language used:</span>
+                <div class="modal-skills">
+                    <div>
+                        <div class="skill">
+                            <img src="img/ue.png">
+                            <div class="bubble">
+                                <p>UnrealScript</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="project">
@@ -547,50 +778,52 @@
                 <p class="modal-title">Europe Trip App</p>
                 <div class="subline"></div>
                 <span class="modal-mobile-slideshow">
-                    <span class = "modal-slides">
+                    <span class="modal-slides">
                         <div class="slide">
-                        <img src="img/et1.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/et2.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/et3.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/et4.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/et5.png">
-                    </div>
-                    <div class="slide">
-                        <img src="img/et6.png">
-                    </div>
-                    <a class="prev" onclick="plusSlidesMain(-1,15,20)">&#10094;</a>
-                    <a class="next" onclick="plusSlidesMain(1,15,20)">&#10095;</a>
+                            <img src="img/et1.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/et2.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/et3.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/et4.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/et5.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/et6.png">
+                        </div>
+                        <a class="prev" onclick="plusSlidesMain(-1,20,25)">&#10094;</a>
+                        <a class="next" onclick="plusSlidesMain(1,20,25)">&#10095;</a>
                     </span>
                     <div style="text-align:center">
                         <div class="dotbar">
-                            <span class="slide-dot" onclick="currentSlide(15)"></span>
-                            <span class="slide-dot" onclick="currentSlide(16)"></span>
-                            <span class="slide-dot" onclick="currentSlide(17)"></span>
-                            <span class="slide-dot" onclick="currentSlide(18)"></span>
-                            <span class="slide-dot" onclick="currentSlide(19)"></span>
                             <span class="slide-dot" onclick="currentSlide(20)"></span>
-                         </div>
-                    </div>
-                </span>
-                <p class="modal-text">	The 2013 Europe Trip App was created while I was in 7th grade for a class trip to Spain and France the following summer. The app was written in Objective-C and was eventually published on the Apple App Store for my classmates to download and utilize on the trip. Some of the features included a daily itinerary, a plethora of cached maps to avoid international data plan usage, and information about the sites we would be visiting.
-                </p>
-                <span class="modal-language">Language used:</span>
-                <div class="skills"> <div>
-                    <div class="skill">
-                        <img src="img/oc.png">
-                        <div class="bubble">
-                            <p>Objective-C</p>
+                            <span class="slide-dot" onclick="currentSlide(21)"></span>
+                            <span class="slide-dot" onclick="currentSlide(22)"></span>
+                            <span class="slide-dot" onclick="currentSlide(23)"></span>
+                            <span class="slide-dot" onclick="currentSlide(24)"></span>
+                            <span class="slide-dot" onclick="currentSlide(25)"></span>
                         </div>
                     </div>
-                </div></div>
+                </span>
+                <p class="modal-text"> The 2013 Europe Trip App was created while I was in 7th grade for a class trip to Spain and France the following summer. The app was written in Objective-C and was eventually published on the Apple App Store for my classmates to download and utilize on the trip. Some of the features included a daily itinerary, a plethora of cached maps to avoid international data plan usage, and information about the sites we would be visiting.
+                </p>
+                <span class="modal-language">Language used:</span>
+                <div class="modal-skills">
+                    <div>
+                        <div class="skill">
+                            <img src="img/oc.png">
+                            <div class="bubble">
+                                <p>Objective-C</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

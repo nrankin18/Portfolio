@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
-
 * {
     font-family: 'Roboto', sans-serif;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
@@ -87,7 +87,7 @@ nav a:hover {
     margin-bottom: 0;
 }
 
-.welcome{
+.welcome {
     font-size: 1.7em;
     margin: 0;
     text-align: center;
@@ -110,7 +110,7 @@ nav a:hover {
     text-align: center;
 }
 
-.subtitle .dot{
+.subtitle .dot {
     font-size: 2.5em;
     line-height: 10%;
 }
@@ -120,7 +120,6 @@ nav a:hover {
     margin-left: 2.5%;
     margin-right: 2.5%;
     height: 2px;
-
 }
 
 .subline {
@@ -193,7 +192,7 @@ nav a:hover {
     align-items: center;
 }
 
-.company-logo img{
+.company-logo img {
     width: 75px;
 }
 
@@ -315,7 +314,7 @@ nav a:hover {
     align-items: center;
 }
 
-.school img{
+.school img {
     width: 75px;
 }
 
@@ -372,15 +371,15 @@ nav a:hover {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-content {
     background-color: #fefefe;
-    margin: 15% auto;
+    margin: 8% auto;
     padding: 0 20px;
     border: 1px solid #888;
-    width: 60%;
+    width: 80%;
     overflow: hidden;
 }
 
@@ -389,10 +388,27 @@ nav a:hover {
     font-weight: bold;
 }
 
+.modal-skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-skills div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.modal-skills img {
+    padding: 15px 20px;
+    width: 50px;
+}
+
 .modal-title {
     font-size: 1.8em;
-    margin: 5% 0 10px 5%;
+    margin: 2% 0 10px 5%;
 }
+
 .modal-text {
     margin: 25px 0;
     text-indent: 45px;
@@ -407,7 +423,7 @@ nav a:hover {
 
 .modal-mobile-slideshow {
     margin: 25px 5% 50px 25px;
-    max-width: 20%;
+    max-width: 18%;
     position: relative;
     float: right;
 }
@@ -423,7 +439,8 @@ nav a:hover {
     font-weight: bold;
 }
 
-.close:hover, .close:focus {
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
@@ -435,7 +452,7 @@ nav a:hover {
     font-weight: bold;
     font-size: 3em;
     text-align: center;
-    background-image: linear-gradient(90deg, rgba(210,210,210,0) 0%, rgba(210,210,210,1) 50%, rgba(210,210,210,0) 100%);
+    background-image: linear-gradient(90deg, rgba(210, 210, 210, 0) 0%, rgba(210, 210, 210, 1) 50%, rgba(210, 210, 210, 0) 100%);
     margin-left: 7%;
     margin-right: 7%;
 }
@@ -446,7 +463,6 @@ nav a:hover {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 .aviation-about {
@@ -502,7 +518,8 @@ nav a:hover {
     top: 60px;
 }
 
-.prev, .next {
+.prev,
+.next {
     background-color: #00000088;
     cursor: pointer;
     position: absolute;
@@ -542,7 +559,8 @@ nav a:hover {
     transition: background-color 0.6s ease;
 }
 
-.active, .slide-dot:hover {
+.active,
+.slide-dot:hover {
     background-color: #717171;
 }
 
@@ -563,7 +581,7 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    padding:  0.36em;
+    padding: 0.36em;
     line-height: 1.3em;
     background: rgb(30, 30, 30);
     -webkit-border-radius: 0.21em;
@@ -583,35 +601,11 @@ nav a:hover {
 }
 
 .departure-board span.letter {
-    -webkit-box-shadow:
-            inset 0 -.07em 0 rgba(50, 50, 50, .7),
-            inset 0 -.14em 0 rgba(0, 0, 0, .7),
-            inset .14em 0 .28em rgba(0, 0, 0, .9),
-            inset -.14em 0 .28em rgba(0, 0, 0, .9),
-            0 .07em 0 rgba(255, 255, 255, .2);
-
-    -moz-box-shadow:
-            inset 0 -.07em 0 rgba(50, 50, 50, .7),
-            inset 0 -.14em 0 rgba(0, 0, 0, .7),
-            inset .14em 0 .28em rgba(0, 0, 0, .9),
-            inset -.14em 0 .28em rgba(0, 0, 0, .9),
-            0 .07em 0 rgba(255, 255, 255, .2);
-
-    -o-box-shadow:
-            inset 0 -.07em 0 rgba(50, 50, 50, .7),
-            inset 0 -.14em 0 rgba(0, 0, 0, .7),
-            inset .14em 0 .28em rgba(0, 0, 0, .9),
-            inset -.14em 0 .28em rgba(0, 0, 0, .9),
-            0 .07em 0 rgba(255, 255, 255, .2);
-
-    box-shadow:
-            inset 0 -.07em 0 rgba(50, 50, 50, .7),
-            inset 0 -.14em 0 rgba(0, 0, 0, .7),
-            inset .14em 0 .28em rgba(0, 0, 0, .9),
-            inset -.14em 0 .28em rgba(0, 0, 0, .9),
-            0 .07em 0 rgba(255, 255, 255, .2);
+    -webkit-box-shadow: inset 0 -.07em 0 rgba(50, 50, 50, .7), inset 0 -.14em 0 rgba(0, 0, 0, .7), inset .14em 0 .28em rgba(0, 0, 0, .9), inset -.14em 0 .28em rgba(0, 0, 0, .9), 0 .07em 0 rgba(255, 255, 255, .2);
+    -moz-box-shadow: inset 0 -.07em 0 rgba(50, 50, 50, .7), inset 0 -.14em 0 rgba(0, 0, 0, .7), inset .14em 0 .28em rgba(0, 0, 0, .9), inset -.14em 0 .28em rgba(0, 0, 0, .9), 0 .07em 0 rgba(255, 255, 255, .2);
+    -o-box-shadow: inset 0 -.07em 0 rgba(50, 50, 50, .7), inset 0 -.14em 0 rgba(0, 0, 0, .7), inset .14em 0 .28em rgba(0, 0, 0, .9), inset -.14em 0 .28em rgba(0, 0, 0, .9), 0 .07em 0 rgba(255, 255, 255, .2);
+    box-shadow: inset 0 -.07em 0 rgba(50, 50, 50, .7), inset 0 -.14em 0 rgba(0, 0, 0, .7), inset .14em 0 .28em rgba(0, 0, 0, .9), inset -.14em 0 .28em rgba(0, 0, 0, .9), 0 .07em 0 rgba(255, 255, 255, .2);
 }
-
 
 .departure-board span.letter:before {
     border-top: .07em solid rgba(0, 0, 0, .4);
@@ -628,14 +622,12 @@ nav a:hover {
     -o-transform: translate(0, -.1em);
 }
 
-
 .departure-board span.fold {
     display: block;
     position: absolute;
     height: 0;
     top: .65em;
 }
-
 
 .departure-board span.flap {
     display: block;
@@ -647,16 +639,13 @@ nav a:hover {
     overflow: hidden;
 }
 
-
 .departure-board span.text {
     width: 100%;
 }
 
-
 .departure-board span.bottom {
     top: .65em;
 }
-
 
 .departure-board span.bottom span.text {
     position: relative;
@@ -676,12 +665,10 @@ nav a:hover {
     background: #000;
     display: block;
     position: relative;
-
     -webkit-transform: scaleY(1);
     -moz-transform: scaleY(1);
     -o-transform: scaleY(1);
     transform: scaleY(1);
-
     -webkit-transition: -webkit-transform linear;
     -moz-transition: -moz-transform linear;
     -o-transition: -o-transform linear;
@@ -702,7 +689,6 @@ nav a:hover {
     font-size: 5em;
     margin-bottom: 50px;
 }
-
 
 .aviation-subsection-text {
     display: block;
