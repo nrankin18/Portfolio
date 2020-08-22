@@ -11,5 +11,3 @@
         </ul>
     </nav>
 </header>
-
-<script src="js/responsive.js"></script>
