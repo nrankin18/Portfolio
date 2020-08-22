@@ -568,19 +568,21 @@ nav a:hover {
     background-color: #FAFAF8;
     border: 5px solid black;
     height: 400px;
-    width: 65%;
+    width: 50%;
+    min-width: 500px;
     margin: auto;
 }
 
 .destinations {
-    width: 500px;
+    width: 50%;
 }
 
 .departure-board {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
     padding: 0.36em;
     line-height: 1.3em;
     background: rgb(30, 30, 30);
@@ -695,6 +697,28 @@ nav a:hover {
     text-align: center;
     font-style: italic;
     font-size: 1.7em;
+}
+
+.flags {
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.flag {
+    filter: drop-shadow(0 7px 4px grey);
+}
+
+.flag img {
+    max-width: 70px;
+    height: auto;
+    transition: transform .2s;
+}
+
+.flag:hover {
+    transform: scale(1.3) translateY(11%);
 }
 
 .aircraft {

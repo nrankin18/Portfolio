@@ -182,7 +182,7 @@ const displays = [
     [title, line, 'Milwaukee, WI         KMKE', 'Chatham, MA           KCQX', 'St. Louis, MO         KALN'],
     [title, line, 'Portland, OR          KHIO', 'Dubuque, IA           KDBQ', 'Gary, IN              KGYY'],
     [title, line, 'Chicago, IL           KPWK', 'Omaha, NE             KOMA', 'Grand Junction, CO    KGJT'],
-    [title, line, 'Rockford, IL          KRFD', 'La Crosse, WI         KLSE', 'Door County, WI       KSUE']
+    [title, line, 'Rockford, IL          KRFD', 'Tulsa, OK             KTUL', 'Door County, WI       KSUE']
 ];
 board.setValue(displays[0]);
 const interval = setInterval(function() {
