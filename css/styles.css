@@ -25,12 +25,9 @@ body {
 
 .icon {
     position: fixed;
-    top: 20px;
-    height: 110px;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    z-index: 11;
+    width: 110px;
+    left: 50%;
+    margin-left: -55px;
 }
 
 .icon-spacer {
@@ -463,10 +460,12 @@ nav a:hover {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .aviation-about {
-    max-width: 40%;
+    max-width: 600px;
+    padding: 20px;
     margin: 0;
     position: relative;
 }
@@ -489,8 +488,11 @@ nav a:hover {
 }
 
 .slideshow {
-    width: 40%;
+    max-width: 700px;
     position: relative;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
 }
 
 .slide {
@@ -508,14 +510,39 @@ nav a:hover {
     width: 100%;
 }
 
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
 .caption {
     color: white;
     background-color: #00000088;
     font-size: 1em;
     padding: 8px 12px;
-    display: inline;
-    position: relative;
-    top: 60px;
+    position: absolute;
+    top: 45px;
+    right: 5;
 }
 
 .prev,
@@ -568,13 +595,13 @@ nav a:hover {
     background-color: #FAFAF8;
     border: 5px solid black;
     height: 400px;
-    width: 50%;
-    min-width: 500px;
+    max-width: 750px;
     margin: auto;
 }
 
 .destinations {
-    width: 50%;
+    max-width: 750px;
+    min-width: 500px;
 }
 
 .departure-board {
@@ -702,13 +729,17 @@ nav a:hover {
 .flags {
     display: flex;
     justify-content: space-evenly;
-    width: 65%;
     margin: auto;
     padding-bottom: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    overflow: hidden;
 }
 
 .flag {
     filter: drop-shadow(0 7px 4px grey);
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .flag img {
@@ -726,10 +757,10 @@ nav a:hover {
     margin: 25px 7% 0 7%;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .ac {
-    width: 25%;
     text-align: center;
     display: block;
 }

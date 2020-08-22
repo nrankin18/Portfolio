@@ -6,7 +6,6 @@
     <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet">
 </head>
-<img class="icon" src="img/icon.png">
 <?php include_once("header.php"); ?>
 
 <body>
@@ -19,23 +18,23 @@
         </div>
         <span class="slideshow">
             <span class="slides">
-                <div class="slide">
+                <div class="slide fade">
                     <div class="caption">Mount Hood</div>
                     <img src="img/av3.png">
                 </div>
-                <div class="slide">
+                <div class="slide fade">
                     <div class="caption">Chicago</div>
                     <img src="img/av1.png">
                 </div>
-                <div class="slide">
+                <div class="slide fade">
                     <div class="caption">Boston College</div>
                     <img src="img/av4.png">
                 </div>
-                <div class="slide">
+                <div class="slide fade">
                     <div class="caption">Arches National Park</div>
                     <img src="img/av2.png">
                 </div>
-                <div class="slide">
+                <div class="slide fade">
                     <div class="caption">Nantucket</div>
                     <img src="img/av5.png">
                 </div>

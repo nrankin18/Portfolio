@@ -5,7 +5,6 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
-<img class="icon" src="img/icon.png">
 <?php include_once('header.php'); ?>
 <body>
     <h1 class="header">Contact</h1>

@@ -3,7 +3,6 @@
     <title>Nathan Rankin</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<img class="icon" src="img/icon.png">
 <?php include_once("header.php"); ?>
 
 <body>
