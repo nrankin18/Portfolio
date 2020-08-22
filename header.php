@@ -8,7 +8,8 @@
             <li class="icon-spacer"></li>
             <li class="nav-item"><a href="aviation.php">Aviation</a></li>
             <li class="nav-item"><a href="contact.php">Contact</a></li>
-            <!-- <li id="nav-hamburger"><a href="#" onclick="showNav()"><i class="fa fa-bars"></i></a></li> -->
         </ul>
     </nav>
 </header>
+
+<script src="js/responsive.js"></script>

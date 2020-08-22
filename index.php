@@ -22,7 +22,7 @@
     </span>
     <div class="line"></div>
     <div class="about">
-        <img src="img/headshot.png">
+        <img id="headshot" src="img/headshot.png">
         <span class="html-column">
             <span class="html-tag top">&ltp&gt</span>
             <span class="html-tag">&lt/p&gt</span>
