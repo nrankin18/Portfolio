@@ -1,486 +1,484 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.9500,
-          45.5404
-        ]
-      },
-      "properties": {
-        "id": "KHIO"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.3020,
-          47.5300
-        ]
-      },
-      "properties": {
-        "id": "KBFI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.2376,
-          43.0389
-        ]
-      },
-      "properties": {
-        "id": "KUES"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.0344,
-          43.1104
-        ]
-      },
-      "properties": {
-        "id": "KMWC"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.9015,
-          42.1142
-        ]
-      },
-      "properties": {
-        "id": "KPWK"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.3375,
-          43.1399
-        ]
-      },
-      "properties": {
-        "id": "KMSN"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.0972,
-          42.1954
-        ]
-      },
-      "properties": {
-        "id": "KRFD"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.7232,
-          43.1696
-        ]
-      },
-      "properties": {
-        "id": "KRYV"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.1279,
-          43.4222
-        ]
-      },
-      "properties": {
-        "id": "KETB"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.7039,
-          43.4265
-        ]
-      },
-      "properties": {
-        "id": "KUNU"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.3912,
-          43.3492
-        ]
-      },
-      "properties": {
-        "id": "KHXF"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.5570,
-          43.9844
-        ]
-      },
-      "properties": {
-        "id": "KOSH"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.2509,
-          42.7500
-        ]
-      },
-      "properties": {
-        "id": "96C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.8966,
-          42.9472
-        ]
-      },
-      "properties": {
-        "id": "KMKE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.0460,
-          38.8903
-        ]
-      },
-      "properties": {
-        "id": "KALN"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -108.5270,
-          39.1224
-        ]
-      },
-      "properties": {
-        "id": "KGJT"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.1729,
-          42.1905
-        ]
-      },
-      "properties": {
-        "id": "KOWD"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.0602,
-          41.2531
-        ]
-      },
-      "properties": {
-        "id": "KACK"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.2567,
-          43.8790
-        ]
-      },
-      "properties": {
-        "id": "KLSE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.0416,
-          42.6203
-        ]
-      },
-      "properties": {
-        "id": "KJVL"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.4884,
-          43.7712
-        ]
-      },
-      "properties": {
-        "id": "KFLD"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.5191,
-          44.2581
-        ]
-      },
-      "properties": {
-        "id": "KATW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.8657,
-          39.8346
-        ]
-      },
-      "properties": {
-        "id": "KDEC"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.1296,
-          44.4851
-        ]
-      },
-      "properties": {
-        "id": "KGRB"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.8514,
-          43.7696
-        ]
-      },
-      "properties": {
-        "id": "KSBM"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.5303,
-          44.5452
-        ]
-      },
-      "properties": {
-        "id": "KSTE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.6668,
-          44.7776
-        ]
-      },
-      "properties": {
-        "id": "KCWA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.7095,
-          42.4020
-        ]
-      },
-      "properties": {
-        "id": "KDBQ"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.4215,
-          44.8437
-        ]
-      },
-      "properties": {
-        "id": "KSUE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.7524,
-          41.7860
-        ]
-      },
-      "properties": {
-        "id": "KMDW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.4145,
-          41.6172
-        ]
-      },
-      "properties": {
-        "id": "KGYY"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.1982,
-          42.0009
-        ]
-      },
-      "properties": {
-        "id": "1B9"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.9897,
-          41.6883
-        ]
-      },
-      "properties": {
-        "id": "KCQX"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.9161,
-          42.5841
-        ]
-      },
-      "properties": {
-        "id": "KBVY"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.3980,
-          42.5552
-        ]
-      },
-      "properties": {
-        "id": "KALO"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.8937,
-          41.3019
-        ]
-      },
-      "properties": {
-        "id": "KOMA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.6834,
-          44.1220
-        ]
-      },
-      "properties": {
-        "id": "KMTW"
-      }
-    }
-  ]
+    "type": "FeatureCollection",
+    "features": [{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.9500,
+                    45.5404
+                ]
+            },
+            "properties": {
+                "id": "KHIO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.3020,
+                    47.5300
+                ]
+            },
+            "properties": {
+                "id": "KBFI"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-88.2376,
+                    43.0389
+                ]
+            },
+            "properties": {
+                "id": "KUES"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-88.0344,
+                    43.1104
+                ]
+            },
+            "properties": {
+                "id": "KMWC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-87.9015,
+                    42.1142
+                ]
+            },
+            "properties": {
+                "id": "KPWK"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.3375,
+                    43.1399
+                ]
+            },
+            "properties": {
+                "id": "KMSN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.0972,
+                    42.1954
+                ]
+            },
+            "properties": {
+                "id": "KRFD"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-88.7232,
+                    43.1696
+                ]
+            },
+            "properties": {
+                "id": "KRYV"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-88.1279,
+                    43.4222
+                ]
+            },
+            "properties": {
+                "id": "KETB"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-88.7039,
+                    43.4265
+                ]
+            },
+            "properties": {
+                "id": "KUNU"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-88.3912,
+                    43.3492
+                ]
+            },
+            "properties": {
+                "id": "KHXF"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-88.5570,
+                    43.9844
+                ]
+            },
+            "properties": {
+                "id": "KOSH"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-88.2509,
+                    42.7500
+                ]
+            },
+            "properties": {
+                "id": "96C"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-87.8966,
+                    42.9472
+                ]
+            },
+            "properties": {
+                "id": "KMKE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-90.0460,
+                    38.8903
+                ]
+            },
+            "properties": {
+                "id": "KALN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-108.5270,
+                    39.1224
+                ]
+            },
+            "properties": {
+                "id": "KGJT"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.1729,
+                    42.1905
+                ]
+            },
+            "properties": {
+                "id": "KOWD"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-70.0602,
+                    41.2531
+                ]
+            },
+            "properties": {
+                "id": "KACK"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-91.2567,
+                    43.8790
+                ]
+            },
+            "properties": {
+                "id": "KLSE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.0416,
+                    42.6203
+                ]
+            },
+            "properties": {
+                "id": "KJVL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-88.4884,
+                    43.7712
+                ]
+            },
+            "properties": {
+                "id": "KFLD"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-88.5191,
+                    44.2581
+                ]
+            },
+            "properties": {
+                "id": "KATW"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-88.8657,
+                    39.8346
+                ]
+            },
+            "properties": {
+                "id": "KDEC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-88.1296,
+                    44.4851
+                ]
+            },
+            "properties": {
+                "id": "KGRB"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-87.8514,
+                    43.7696
+                ]
+            },
+            "properties": {
+                "id": "KSBM"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.5303,
+                    44.5452
+                ]
+            },
+            "properties": {
+                "id": "KSTE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.6668,
+                    44.7776
+                ]
+            },
+            "properties": {
+                "id": "KCWA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-90.7095,
+                    42.4020
+                ]
+            },
+            "properties": {
+                "id": "KDBQ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-87.4215,
+                    44.8437
+                ]
+            },
+            "properties": {
+                "id": "KSUE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-87.7524,
+                    41.7860
+                ]
+            },
+            "properties": {
+                "id": "KMDW"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-87.4145,
+                    41.6172
+                ]
+            },
+            "properties": {
+                "id": "KGYY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.1982,
+                    42.0009
+                ]
+            },
+            "properties": {
+                "id": "1B9"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-69.9897,
+                    41.6883
+                ]
+            },
+            "properties": {
+                "id": "KCQX"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-70.9161,
+                    42.5841
+                ]
+            },
+            "properties": {
+                "id": "KBVY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-92.3980,
+                    42.5552
+                ]
+            },
+            "properties": {
+                "id": "KALO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-95.8937,
+                    41.3019
+                ]
+            },
+            "properties": {
+                "id": "KOMA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-87.6834,
+                    44.1220
+                ]
+            },
+            "properties": {
+                "id": "KMTW"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-90.5075278,
+                    41.4482778
+                ]
+            },
+            "properties": {
+                "id": "KMLI"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-95.8881111,
+                    36.1983889
+                ]
+            },
+            "properties": {
+                "id": "KTUL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-92.2180278,
+                    38.8173333
+                ]
+            },
+            "properties": {
+                "id": "KCOU"
+            }
+        }
+    ]
 }

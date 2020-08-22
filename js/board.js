@@ -1,4 +1,4 @@
-var DepartureBoard = function (element, options) {
+var DepartureBoard = function(element, options) {
     options = options || {};
 
     this._element = element;
@@ -12,89 +12,89 @@ var DepartureBoard = function (element, options) {
         rowElement;
 
     for (var r = 0; r < rowCount; r++) {
-        this._letters.push ([]);
+        this._letters.push([]);
 
-        rowElement = document.createElement ('div');
+        rowElement = document.createElement('div');
         rowElement.className = 'row';
-        element.appendChild (rowElement);
+        element.appendChild(rowElement);
 
         for (var l = 0; l < letterCount; l++) {
-            letter = new DepartureBoard.Letter ();
-            this._letters[r].push (letter);
-            rowElement.appendChild (letter.getElement ());
+            letter = new DepartureBoard.Letter();
+            this._letters[r].push(letter);
+            rowElement.appendChild(letter.getElement());
         }
     }
 };
 
 DepartureBoard.LETTERS = " ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,'/:()&!?+-";
 
-DepartureBoard.prototype.spin = function () {
+DepartureBoard.prototype.spin = function() {
     var me = this;
 
     for (var i = 0, l = this._letters.length; i < l; i++) {
-        (function (i) {
-            window.setTimeout (function () {
-                me._letters[i].spin ();
-            }, 20 * i + Math.random () * 400);
+        (function(i) {
+            window.setTimeout(function() {
+                me._letters[i].spin();
+            }, 20 * i + Math.random() * 400);
         })(i);
     }
 };
 
-DepartureBoard.prototype.setValue = function (value) {
+DepartureBoard.prototype.setValue = function(value) {
     if (!(value instanceof Array)) value = [value];
     var me = this;
 
     for (var r = 0, rl = this._letters.length; r < rl; r++) {
-        value[r] = value[r]? value[r].toUpperCase () : '';
+        value[r] = value[r] ? value[r].toUpperCase() : '';
 
         for (var i = 0, l = this._letters[r].length; i < l; i++) {
-            (function (r, i) {
-                window.setTimeout (function () {
-                    var letterValue = value[r].substr (i, 1) || '';
-                    me._letters[r][i].setValue (letterValue);
-                }, 2000 * r + 25 * i + Math.random () * 400);
+            (function(r, i) {
+                window.setTimeout(function() {
+                    var letterValue = value[r].substr(i, 1) || '';
+                    me._letters[r][i].setValue(letterValue);
+                }, 2000 * r + 25 * i + Math.random() * 400);
             })(r, i);
         }
     }
 };
 
-DepartureBoard.Letter = function () {
-    this._element = document.createElement ('span');
+DepartureBoard.Letter = function() {
+    this._element = document.createElement('span');
     this._element.className = 'letter';
 
-    this._bottom = document.createElement ('span');
+    this._bottom = document.createElement('span');
     this._bottom.className = 'flap bottom';
-    this._element.appendChild (this._bottom);
+    this._element.appendChild(this._bottom);
 
-    this._bottomText = document.createElement ('span');
+    this._bottomText = document.createElement('span');
     this._bottomText.className = 'text';
-    this._bottom.appendChild (this._bottomText);
+    this._bottom.appendChild(this._bottomText);
 
 
-    this._top = document.createElement ('span');
+    this._top = document.createElement('span');
     this._top.className = 'flap top';
-    this._element.appendChild (this._top);
+    this._element.appendChild(this._top);
 
-    this._topText = document.createElement ('span');
+    this._topText = document.createElement('span');
     this._topText.className = 'text';
-    this._top.appendChild (this._topText);
+    this._top.appendChild(this._topText);
 
 
-    this._fold = document.createElement ('span');
+    this._fold = document.createElement('span');
     this._fold.className = 'fold';
-    this._element.appendChild (this._fold);
+    this._element.appendChild(this._fold);
 
-    this._falling = document.createElement ('span');
+    this._falling = document.createElement('span');
     this._falling.className = 'flap falling';
-    this._fold.appendChild (this._falling);
+    this._fold.appendChild(this._falling);
 
-    this._fallingText = document.createElement ('span');
+    this._fallingText = document.createElement('span');
     this._fallingText.className = 'text';
 
     this._fallingText.style.WebkitTransitionDuration = this._fallingText.style.MozTransitionDuration =
         this._fallingText.style.OTransitionDuration = this._fallingText.style.transitionDuration = DepartureBoard.Letter.DROP_TIME * 0.5 + 'ms';
 
-    this._falling.appendChild (this._fallingText);
+    this._falling.appendChild(this._fallingText);
 
 
     this._index = 0;
@@ -104,47 +104,47 @@ DepartureBoard.Letter = function () {
 
 DepartureBoard.Letter.DROP_TIME = 100;
 
-DepartureBoard.Letter.prototype.getElement = function () {
+DepartureBoard.Letter.prototype.getElement = function() {
     return this._element;
 };
 
-DepartureBoard.Letter.prototype.spin = function (clear) {
+DepartureBoard.Letter.prototype.spin = function(clear) {
     if (clear !== false) this._stopAt = null;
 
     var me = this;
-    this._interval = window.setInterval (function () { me._tick (); }, DepartureBoard.Letter.DROP_TIME * 1.1);
+    this._interval = window.setInterval(function() { me._tick(); }, DepartureBoard.Letter.DROP_TIME * 1.1);
 };
 
-DepartureBoard.Letter.prototype.setValue = function (value) {
-    this._stopAt = DepartureBoard.LETTERS.indexOf (value);
+DepartureBoard.Letter.prototype.setValue = function(value) {
+    this._stopAt = DepartureBoard.LETTERS.indexOf(value);
 
     if (this._stopAt < 0) this._stopAt = 0;
-    if (!this._interval && this._index != this._stopAt) this.spin (false);
+    if (!this._interval && this._index != this._stopAt) this.spin(false);
 };
 
-DepartureBoard.Letter.prototype._tick = function () {
+DepartureBoard.Letter.prototype._tick = function() {
     var me = this,
-        oldValue = DepartureBoard.LETTERS.charAt (this._index),
+        oldValue = DepartureBoard.LETTERS.charAt(this._index),
         fallingStyle = this._falling.style,
         fallingTextStyle = this._fallingText.style,
         newValue;
 
 
     this._index = (this._index + 1) % DepartureBoard.LETTERS.length;
-    newValue = DepartureBoard.LETTERS.charAt (this._index);
+    newValue = DepartureBoard.LETTERS.charAt(this._index);
 
     this._fallingText.innerHTML = oldValue;
     fallingStyle.display = 'block';
 
     this._topText.innerHTML = newValue;
 
-    window.setTimeout (function () {
+    window.setTimeout(function() {
         fallingTextStyle.WebkitTransitionTimingFunction = fallingTextStyle.MozTransitionTimingFunction = fallingTextStyle.OTransitionTimingFunction = fallingTextStyle.transitionTimingFunction = 'ease-in';
         fallingTextStyle.WebkitTransform = fallingTextStyle.MozTransform = fallingTextStyle.OTransform = fallingTextStyle.transform = 'scaleY(0)';
     }, 1);
 
 
-    window.setTimeout (function () {
+    window.setTimeout(function() {
         me._fallingText.innerHTML = newValue;
 
         fallingStyle.top = '-.03em';
@@ -156,7 +156,7 @@ DepartureBoard.Letter.prototype._tick = function () {
     }, DepartureBoard.Letter.DROP_TIME / 2);
 
 
-    window.setTimeout (function () {
+    window.setTimeout(function() {
         me._bottomText.innerHTML = newValue;
         fallingStyle.display = 'none';
 
@@ -167,12 +167,12 @@ DepartureBoard.Letter.prototype._tick = function () {
 
 
     if (this._index === this._stopAt) {
-        clearInterval (this._interval);
+        clearInterval(this._interval);
         delete this._interval;
     }
 };
 
-const board = new DepartureBoard (document.getElementById ('board'), { rowCount: 5, letterCount: 26 });
+const board = new DepartureBoard(document.getElementById('board'), { rowCount: 5, letterCount: 26 });
 var i = 1;
 const title = '       Destinations       ';
 const line = '--------------------------';
@@ -182,7 +182,8 @@ const displays = [
     [title, line, 'Milwaukee, WI         KMKE', 'Chatham, MA           KCQX', 'St. Louis, MO         KALN'],
     [title, line, 'Portland, OR          KHIO', 'Dubuque, IA           KDBQ', 'Gary, IN              KGYY'],
     [title, line, 'Chicago, IL           KPWK', 'Omaha, NE             KOMA', 'Grand Junction, CO    KGJT'],
-    [title, line, 'Rockford, IL          KRFD', 'La Crosse, WI         KLSE', 'Door County, WI       KSUE']];
+    [title, line, 'Rockford, IL          KRFD', 'La Crosse, WI         KLSE', 'Door County, WI       KSUE']
+];
 board.setValue(displays[0]);
 const interval = setInterval(function() {
     board.setValue(displays[i]);
@@ -192,12 +193,11 @@ const interval = setInterval(function() {
         i++;
 }, 15000)
 
-const c152board = new DepartureBoard (document.getElementById ('c152-board'), { rowCount: 1, letterCount: 9});
+const c152board = new DepartureBoard(document.getElementById('c152-board'), { rowCount: 1, letterCount: 9 });
 c152board.setValue([' 39.3 hrs']);
 
-const c172board = new DepartureBoard (document.getElementById ('c172-board'), { rowCount: 1, letterCount: 9});
+const c172board = new DepartureBoard(document.getElementById('c172-board'), { rowCount: 1, letterCount: 9 });
 c172board.setValue([' 74.6 hrs']);
 
-const p28aboard = new DepartureBoard (document.getElementById ('p28a-board'), { rowCount: 1, letterCount: 9});
-p28aboard.setValue([' 17.7 hrs']);
-
+const p28aboard = new DepartureBoard(document.getElementById('p28a-board'), { rowCount: 1, letterCount: 9 });
+p28aboard.setValue([' 28.6 hrs']);

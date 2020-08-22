@@ -7,7 +7,7 @@ const map = new mapboxgl.Map({
 
 fetch('json/airports.json')
     .then(response => response.json())
-    .then(function(data){
+    .then(function(data) {
         const airportsSource = new carto.source.GeoJSON(data);
         const airportViz = new carto.Viz(`
             color: black
@@ -20,7 +20,7 @@ fetch('json/airports.json')
 
 fetch('json/routes.json')
     .then(response => response.json())
-    .then(function(data){
+    .then(function(data) {
         const routesSource = new carto.source.GeoJSON(data);
         const routeViz = new carto.Viz(`
             color: black

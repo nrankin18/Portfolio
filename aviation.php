@@ -59,7 +59,7 @@
     <h3 class="subsection">
         <span class="aviation-section-text">Total Time:</span>
     </h3>
-    <div class="hours">144.5 hrs</div>
+    <div class="hours">155.4 hrs</div>
     <div class="subline"></div>
     <h3 class="subsection">
         <span class="aviation-subsection-text">Top-Time Aircraft:</span>
