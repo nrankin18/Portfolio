@@ -599,6 +599,36 @@
                     [-88.1279, 43.4222]
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-88.1279, 43.4222],
+                    [-83.7457088, 42.2229276]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-83.7457088, 42.2229276],
+                    [-78.9458467, 43.1075574]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-78.9458467, 43.1075574],
+                    [-71.1729, 42.1905]
+                ]
+            }
         }
     ]
 }

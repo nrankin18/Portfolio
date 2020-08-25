@@ -38,6 +38,10 @@
                     <div class="caption">Nantucket</div>
                     <img src="img/av5.png">
                 </div>
+                <div class="slide fade">
+                    <div class="caption">Niagara Falls</div>
+                    <img src="img/av6.png">
+                </div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </span>
@@ -48,6 +52,7 @@
                     <span class="slide-dot" onclick="currentSlide(3)"></span>
                     <span class="slide-dot" onclick="currentSlide(4)"></span>
                     <span class="slide-dot" onclick="currentSlide(5)"></span>
+                    <span class="slide-dot" onclick="currentSlide(6)"></span>
                 </div>
             </div>
         </span>
@@ -75,10 +80,16 @@
                 <img src="img/ma.png">
             </div>
             <div class="flag">
+                <img src="img/mi.png">
+            </div>
+            <div class="flag">
                 <img src="img/mo.png">
             </div>
             <div class="flag">
                 <img src="img/ne.png">
+            </div>
+            <div class="flag">
+                <img src="img/ny.png">
             </div>
             <div class="flag">
                 <img src="img/ok.png">
@@ -103,7 +114,7 @@
         <h3 class="subsection">
             <span class="aviation-section-text">Total Time:</span>
         </h3>
-        <div class="hours">155.4 hrs</div>
+        <div class="hours">162.5 hrs</div>
         <h3 class="subsection">
             <span class="aviation-subsection-text">Top-Time Aircraft:</span>
         </h3>

@@ -180,8 +180,8 @@ const displays = [
     [title, line, 'Chicago, IL           KMDW', 'Green Bay, WI         KGRB', 'Nantucket, MA         KACK'],
     [title, line, 'Seattle, WA           KBFI', 'Boston, MA            KOWD', 'Madison, WI           KMSN'],
     [title, line, 'Milwaukee, WI         KMKE', 'Chatham, MA           KCQX', 'St. Louis, MO         KALN'],
-    [title, line, 'Portland, OR          KHIO', 'Dubuque, IA           KDBQ', 'Gary, IN              KGYY'],
-    [title, line, 'Chicago, IL           KPWK', 'Omaha, NE             KOMA', 'Grand Junction, CO    KGJT'],
+    [title, line, 'Portland, OR          KHIO', 'Dubuque, IA           KDBQ', 'Niagara, NY           KIAG'],
+    [title, line, 'Ann Arbor, MI         KARB', 'Omaha, NE             KOMA', 'Grand Junction, CO    KGJT'],
     [title, line, 'Rockford, IL          KRFD', 'Tulsa, OK             KTUL', 'Door County, WI       KSUE']
 ];
 board.setValue(displays[0]);
@@ -200,4 +200,4 @@ const c172board = new DepartureBoard(document.getElementById('c172-board'), { ro
 c172board.setValue([' 74.6 hrs']);
 
 const p28aboard = new DepartureBoard(document.getElementById('p28a-board'), { rowCount: 1, letterCount: 9 });
-p28aboard.setValue([' 28.6 hrs']);
+p28aboard.setValue([' 35.7 hrs']);

@@ -479,6 +479,30 @@
             "properties": {
                 "id": "KCOU"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-83.7457088,
+                    42.2229276
+                ]
+            },
+            "properties": {
+                "id": "KARB"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-78.9458467,
+                    43.1075574
+                ]
+            },
+            "properties": {
+                "id": "KIAG"
+            }
         }
     ]
 }
