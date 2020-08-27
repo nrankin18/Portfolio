@@ -10,4 +10,36 @@
             <li class="nav-item"><a href="contact.php">Contact</a></li>
         </ul>
     </nav>
+    <nav class="nav-mobile">
+        <ul id="nav-ul-mobile">
+            <li class="mobile-nav-item"><a href="index.php">Home</a></li>
+            <li class="mobile-nav-item"><a href="index.php#experience">Experience</a></li>
+            <li class="mobile-nav-item"><a href="aviation.php">Aviation</a></li>
+            <li class="mobile-nav-item"><a href="contact.php">Contact</a></li>
+            <li class="mobile-nav-menu"><a onclick="showMobileNav()" href="#"><i class="fa fa-bars"></i></a></li>
+        </ul>
+    </nav>
 </header>
+
+<script>
+    var menuShown = false;
+    function showMobileNav() {
+        var menu = document.getElementById('mobile-nav-menu');
+        var menuUl = document.getElementById('nav-ul-mobile');
+        var navItems = document.getElementsByClassName("mobile-nav-item");
+
+        if (!menuShown) {
+            for (var i = 0; i < navItems.length; i++) {
+                navItems[i].style.display = "inline";
+                menuShown = true;
+                menuUl.style.padding= "110px 0 0 0";
+            }
+        } else {
+            for (var i = 0; i < navItems.length; i++) {
+                navItems[i].style.display = "none";
+                menuShown = false;
+                menuUl.style.padding= "0";
+            }
+        }
+    }
+</script>

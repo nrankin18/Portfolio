@@ -34,13 +34,35 @@ body {
     width: 110px;
 }
 
-#nav-hamburger {
+.nav-mobile {
     display: none;
 }
 
+#nav-ul-mobile {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 0;
+}
+
+.mobile-nav-menu {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.mobile-nav-item {
+    margin: 10px 0;
+}
+
 @media screen and (max-width: 1000px) {
-    nav ul {
-        padding: 100px 0 0 0;
+    .nav {
+        display: none;
+    }
+    .nav-mobile {
+        display: inline;
+    }
+    .mobile-nav-item {
+        display: none;
     }
     .small-hide {
         display: none;
