@@ -72,6 +72,10 @@ websiteclose.onclick = function() {
     websitemodal.style.display = "none";
 }
 
+lindberghclose.onclick = function() {
+    lindberghmodal.style.display = "none";
+}
+
 spotterclose.onclick = function() {
     spottermodal.style.display = "none";
 }

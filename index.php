@@ -57,7 +57,8 @@
                     <li class="position">
                         <div class="position-name">Tech Team Lead, Computer Science Society</div>
                         <ul class="objectives">
-                            <li>Organizes BC’s annual 24-hour hackathon: Hack the Heights </a></li>
+                            <li>Organizes BC’s annual 24-hour hackathon: <a target="_blank" href="http://hacktheheights.org/">Hack the Heights</a></li>
+                            <li>Developed and maintains society's <a target="_blank" href="http://bccss.io">website</a></li>
                             <li>Plans workshops and technical events</li>
                         </ul>
                     </li>
@@ -390,14 +391,14 @@
                 <span class="modal-language">Source code available on:</span>
                 <div class="modal-skills">
                     <a target="_blank" href="https://github.com/nrankin18/Portfolio">
-                    <div>
-                        <div class="skill">
-                            <img src="img/git.png">
-                            <div class="bubble">
-                                <p>GitHub</p>
+                        <div>
+                            <div class="skill">
+                                <img src="img/git.png">
+                                <div class="bubble">
+                                    <p>GitHub</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </a>
                 </div>
             </div>
@@ -673,14 +674,14 @@
                 <span class="modal-language">Source code available on:</span>
                 <div class="modal-skills">
                     <a target="_blank" href="https://github.com/nrankin18/CTPreflight">
-                    <div>
-                        <div class="skill">
-                            <img src="img/git.png">
-                            <div class="bubble">
-                                <p>GitHub</p>
+                        <div>
+                            <div class="skill">
+                                <img src="img/git.png">
+                                <div class="bubble">
+                                    <p>GitHub</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </a>
                 </div>
             </div>
@@ -834,19 +835,59 @@
     </h3>
     <div class="subline"></div>
     <ul class="schools">
-        <li class="school">
-            <img src="img/bc.png">
-            <div class="school-text">
+        <li class="company">
+            <div class="company-logo">
+                <img src="img/bc.png">
+                <div class="vert-line"></div>
+            </div>
+            <div class="company-text">
                 <div class="company-sub">2018 - 2022 (expected)</div>
                 <div class="company-name">Boston College</div>
                 <div>Bachelor of Science - Computer Science, Minor in Physics</div>
+                <ul class="positions">
+                    <li class="position">
+                        <div class="position-name">Sophomore Scholar</div>
+                    </li>
+                    <li class="position">
+                        <div class="position-name">Dean's List First Honors</div>
+                    </li>
+                    <li class="position">
+                        <div class="position-name">Courses include:</div>
+                        <ul class="objectives">
+                            <li><strong>Data Structures (TA)</strong></li>
+                            <li>Computer Systems</li>
+                            <li>Logic and Computation</li>
+                            <li>Randomness and Computation</li>
+                            <li>Computer Organization</li>
+                            <li>Algorithms</li>
+                            <li>Computer Networks</li>
+                            <li><strong>Object-Oriented Design (TA)</strong></li>
+                            <li>Electricity and Magnetism</li>
+                            <li>Waves and Vibrations</li>
+                            <li>Modern Physics</li>
+                            <li>Quantum Physics</li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </li>
-        <li class="school">
-            <img src="img/usm.png">
-            <div class="school-text">
+        <li class="company">
+            <div class="company-logo">
+                <img src="img/usm.png">
+                <div class="vert-line"></div>
+            </div>
+            <div class="company-text">
                 <div class="company-sub">2004 - 2018</div>
                 <div class="company-name">University School of Milwaukee</div>
+                <div>Bachelor of Science - Computer Science, Minor in Physics</div>
+                <ul class="positions">
+                    <li class="position">
+                        <div class="position-name">Cum Laude Society</div>
+                    </li>
+                    <li class="position">
+                        <div class="position-name">Office of Naval Research ISEF Award</div>
+                    </li>
+                </ul>
             </div>
         </li>
     </ul>
