@@ -879,7 +879,6 @@
             <div class="company-text">
                 <div class="company-sub">2004 - 2018</div>
                 <div class="company-name">University School of Milwaukee</div>
-                <div>Bachelor of Science - Computer Science, Minor in Physics</div>
                 <ul class="positions">
                     <li class="position">
                         <div class="position-name">Cum Laude Society</div>
