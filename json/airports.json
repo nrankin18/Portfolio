@@ -503,6 +503,30 @@
             "properties": {
                 "id": "KIAG"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-70.5244706,
+                    41.3584506
+                ]
+            },
+            "properties": {
+                "id": "1B2"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.4304,
+                    41.7245
+                ]
+            },
+            "properties": {
+                "id": "KPVD"
+            }
         }
     ]
 }

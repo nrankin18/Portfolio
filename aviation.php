@@ -98,6 +98,9 @@
                 <img src="img/or.png">
             </div>
             <div class="flag">
+                <img src="img/ri.png">
+            </div>
+            <div class="flag">
                 <img src="img/wa.png">
             </div>
             <div class="flag">
