@@ -659,6 +659,48 @@
                     [-71.1729, 42.1905]
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-71.5458056,
+                        44.3675556
+                    ],
+                    [-71.2890000,
+                        42.4699444
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-71.5458056,
+                        44.3675556
+                    ],
+                    [-71.4178417,
+                        43.5730417
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [-71.2890000,
+                        42.4699444
+                    ],
+                    [-71.4178417,
+                        43.5730417
+                    ]
+                ]
+            }
         }
     ]
 }

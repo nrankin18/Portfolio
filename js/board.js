@@ -200,4 +200,4 @@ const c172board = new DepartureBoard(document.getElementById('c172-board'), { ro
 c172board.setValue([' 74.6 hrs']);
 
 const p28aboard = new DepartureBoard(document.getElementById('p28a-board'), { rowCount: 1, letterCount: 9 });
-p28aboard.setValue([' 37.8 hrs']);
+p28aboard.setValue([' 40.8 hrs']);

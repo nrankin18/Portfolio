@@ -42,6 +42,10 @@
                     <div class="caption">Niagara Falls</div>
                     <img src="img/av6.png">
                 </div>
+                <div class="slide fade">
+                    <div class="caption">White Mountains</div>
+                    <img src="img/av7.png">
+                </div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </span>
@@ -53,6 +57,8 @@
                     <span class="slide-dot" onclick="currentSlide(4)"></span>
                     <span class="slide-dot" onclick="currentSlide(5)"></span>
                     <span class="slide-dot" onclick="currentSlide(6)"></span>
+                    <span class="slide-dot" onclick="currentSlide(7)"></span>
+
                 </div>
             </div>
         </span>
@@ -89,6 +95,9 @@
                 <img src="img/ne.png">
             </div>
             <div class="flag">
+                <img src="img/nh.png">
+            </div>
+            <div class="flag">
                 <img src="img/ny.png">
             </div>
             <div class="flag">
@@ -117,7 +126,7 @@
         <h3 class="subsection">
             <span class="aviation-section-text">Total Time:</span>
         </h3>
-        <div class="hours">164.6 hrs</div>
+        <div class="hours">167.6 hrs</div>
         <h3 class="subsection">
             <span class="aviation-subsection-text">Top-Time Aircraft:</span>
         </h3>

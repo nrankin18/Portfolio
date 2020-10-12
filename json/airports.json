@@ -527,6 +527,42 @@
             "properties": {
                 "id": "KPVD"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.2890000,
+                    42.4699444
+                ]
+            },
+            "properties": {
+                "id": "KBED"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.5458056,
+                    44.3675556
+                ]
+            },
+            "properties": {
+                "id": "KHIE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.4178417,
+                    43.5730417
+                ]
+            },
+            "properties": {
+                "id": "KLCI"
+            }
         }
     ]
 }
