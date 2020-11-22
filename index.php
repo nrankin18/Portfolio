@@ -27,7 +27,7 @@
             <span class="html-tag top">&ltp&gt</span>
             <span class="html-tag">&lt/p&gt</span>
         </span>
-        <p class="about-text">I am a hardworking, highly motivated and dedicated student pursuing a B.S. in computer science at Boston College with a minor in Physics. I have experience in a wide variety of software engineering including Java, iOS, and web development and am currently seeking an internship in computer science. Additionally, I have a passion for aviation and hold a private pilot's license with an instrument rating. This hobby has inspired many of my computer science projects, including my role as Facility Engineer for Boston Virtual ARTCC. Feel free to explore my website and learn more about me.</p>
+        <p class="about-text">I am a hardworking, highly motivated and dedicated student pursuing a B.S. in computer science at Boston College with minors in physics and music. I have experience in a wide variety of software engineering including Java, iOS, and web development and am currently seeking an internship in computer science. Additionally, I have a passion for aviation and hold a private pilot's license with an instrument rating. This hobby has inspired many of my computer science projects, including my role as Facility Engineer for Boston Virtual ARTCC. Feel free to explore my website and learn more about me.</p>
     </div>
     <h2 class="section">
         <span class="html-tag">&lth2&gt</span>
@@ -78,7 +78,8 @@
                     <li class="position">
                         <div class="position-name">Facility Engineer</div>
                         <ul class="objectives">
-                            <li>Designed a PHP-based utility for converting Google Earth KML files into sector files to be used by Facility Engineers from FIRs around the globe</li>
+                            <li>Assist in the continual development of community management website with a user base of over 1500 members featuring exam distribution and test corrections, event management, shift sign-ups, and roster management</li>
+                            <li>Manage and develop community web tools including an Information Display System that interfaces with FAA databases, weather information, aeronautical charts and live airport information</li>
                             <li>Develops and maintains a library of 90 radar client sector files</li>
                         </ul>
                     </li>
@@ -192,6 +193,12 @@
                 <img src="img/jquery.png">
                 <div class="bubble">
                     <p>jQuery</p>
+                </div>
+            </div>
+            <div class="skill">
+                <img src="img/react.png">
+                <div class="bubble">
+                    <p>React</p>
                 </div>
             </div>
             <div class="skill">
@@ -862,10 +869,13 @@
                             <li>Algorithms</li>
                             <li>Computer Networks</li>
                             <li><strong>Object-Oriented Design (TA)</strong></li>
+                            <li>Robotics</li>
+                            <li>Operating Systems</li>
                             <li>Electricity and Magnetism</li>
                             <li>Waves and Vibrations</li>
                             <li>Modern Physics</li>
                             <li>Quantum Physics</li>
+                            <li>Quantum Computing</li>
                         </ul>
                     </li>
                 </ul>
